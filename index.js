@@ -1,5 +1,7 @@
 console.log("git & gitHub");
 
-document.addEventListener("click", () => {
+document.addEventListener("click", (e) => {
+    e.preventDefault();
     console.log("Page Clicked");
+
 })
